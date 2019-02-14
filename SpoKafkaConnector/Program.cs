@@ -14,6 +14,8 @@ namespace SpoKafkaConnector
 
         static void Main(string[] args)
         {
+            Console.WriteLine("Message");
+
             using (var msgBus = new MessageBus(Host))
             {
                 msgBus.SubscribeOnTopic<string>(Topic, SyncDataHandler, CancellationToken.None);
