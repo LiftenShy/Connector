@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpoKafkaConnector", "SpoKaf
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageBroker", "..\MessageBroker\MessageBroker.csproj", "{5B486B91-C229-4699-97D7-EF5CD02262A8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpoKafkaConnectorFunction", "..\SpoKafkaConnectorFunction\SpoKafkaConnectorFunction.csproj", "{B36B1790-52EC-4DDD-96B7-AA5EFE7FE9F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5B486B91-C229-4699-97D7-EF5CD02262A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B486B91-C229-4699-97D7-EF5CD02262A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B486B91-C229-4699-97D7-EF5CD02262A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B36B1790-52EC-4DDD-96B7-AA5EFE7FE9F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B36B1790-52EC-4DDD-96B7-AA5EFE7FE9F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B36B1790-52EC-4DDD-96B7-AA5EFE7FE9F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B36B1790-52EC-4DDD-96B7-AA5EFE7FE9F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

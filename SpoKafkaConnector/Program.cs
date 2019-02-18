@@ -14,7 +14,7 @@ namespace SpoKafkaConnector
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Message");
+            Console.WriteLine($"Host:{Host}, Topic:{Topic}");
 
             using (var msgBus = new MessageBus(Host))
             {
